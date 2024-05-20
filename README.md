@@ -76,6 +76,28 @@
 
 <br>
 
+# 📚기능/요구사항/테스트 명세서
+
+<details><summary> <b>1. 기능 명세서</b> </summary>
+<p>
+<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/20829c20-0880-4ddf-9dfa-3a600ad01b67" width="100%" />
+</p>
+</details>
+
+
+<details><summary> <b>2. 요구사항 정의서</b> </summary>
+<p>
+<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/526afefb-5e1a-4dd9-99db-b2bbe0c9af58" width="100%" />
+</p>
+</details>
+
+<details><summary> <b>3. 테스트 명세서</b> </summary>
+<p>
+<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/461a5bbc-b191-4100-b8e6-f3cbea2b4fbb" width="100%" />
+</p>
+</details>
+
+<!--
 # 📋설계문서
 <details><summary> <b>상세보기</b> </summary>
 <br>
@@ -222,26 +244,7 @@
 
 <br>
 
-# 📚기능/요구사항/테스트 명세서
 
-<details><summary> <b>1. 기능 명세서</b> </summary>
-<p>
-<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/20829c20-0880-4ddf-9dfa-3a600ad01b67" width="100%" />
-</p>
-</details>
-
-
-<details><summary> <b>2. 요구사항 정의서</b> </summary>
-<p>
-<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/526afefb-5e1a-4dd9-99db-b2bbe0c9af58" width="100%" />
-</p>
-</details>
-
-<details><summary> <b>3. 테스트 명세서</b> </summary>
-<p>
-<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/461a5bbc-b191-4100-b8e6-f3cbea2b4fbb" width="100%" />
-</p>
-</details>
 
 ---
 
@@ -359,6 +362,7 @@
 </details>
 </details>
 
+-->
 
 <br>
 
@@ -368,7 +372,7 @@
 ---
 
 <br>
-
+<!--
 # 📎전제 조건 및 설치 환경
 이 프로젝트를 시작하기 전에 다음 소프트웨어와 도구가 설치되어 있어야 합니다.
 
@@ -940,7 +944,7 @@ public EmailMessage sendMail(EmailMessage emailMessage) {
 7. 회원신고
 8. qna
 
-
+-->
 
 
 
