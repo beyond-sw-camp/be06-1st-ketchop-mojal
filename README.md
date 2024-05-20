@@ -403,7 +403,7 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 <br>
 
 # 🐳시스템 아키텍처
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png" width="60%" />
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png" width="80%" />
 
 ---
 
