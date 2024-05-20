@@ -402,8 +402,8 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 
 <br>
 
-# 🐳CICD 아키텍처
-<img src="https://github.com/beyond-sw-camp/be04-4th-6team-CINE-VERSE/assets/153909291/04995643-7e9d-4f6a-98fe-b417f64a86d6" width="60%" />
+# 🐳시스템 아키텍처
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png" width="60%" />
 
 ---
 
