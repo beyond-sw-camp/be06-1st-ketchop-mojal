@@ -67,7 +67,7 @@
 
 ## 4. 서비스 배경
 
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/assets/image/project_background.PNG" />
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/project_background.PNG" />
 
 2023년도 기사에 따르면 숨고, 크몽과 같은 재능마켓 앱의 설치 건수가 4년 사이에 약 8배정도 폭증하였다고 한다. 특히 숨고는 2019년 이용자가 5만명이었는데 4년간 연평균 이용자가 5배나 늘어난 25만명을 기록하였다. <br>
 IT 업계에선 재능 마켓 앱을 통해 거래되는 재능 가운데 번역이나 문서 작업 등 사무직 업무 혹은 이미지 생성 등 예술을 비롯한 지적 서비스는 챗GPT를 위시한 생성 AI가 끊임없이 발전하면서 대체될 가능성이 있다는 예측이 나오고 있다. 해당 예측에 따라서 인간이 물리적으로 할 수 있는 활동만 인기를 유지할 수 있을 것이란 분석이다. <br>
