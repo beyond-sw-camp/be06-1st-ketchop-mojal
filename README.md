@@ -121,15 +121,16 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 
 
 <details><summary> <b>2. 요구사항 정의서</b> </summary>
+</br>
 <p>
-
 [요구사항 정의서](https://docs.google.com/spreadsheets/d/1nINUfPMGdKhAfh8h0LfVK5Xj63Ye9ZGvm82bMhQ6BDA/edit#gid=1744923628)
 </p>
 </details>
 
-<details><summary> <b>3. 테스트 명세서</b> </summary>
+<details><summary> <b>3. ERD</b> </summary>
+</br>
 <p>
-
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/ERD.png" />
 </p>
 </details>
 
