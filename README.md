@@ -121,12 +121,12 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 
 # 📚기능/요구사항/테스트 명세서
 
-!<details>
+
 <summary> <b>1. 기능 명세서</b> </summary>
 <p>
 
 </p>
-!</details>
+
 
 
 <summary> <b>2. 요구사항 정의서</b> </summary>
