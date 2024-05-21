@@ -135,12 +135,6 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 </p>
 </details>
 
-<details><summary> <b>3. ERD</b> </summary>
-</br>
-<p>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/ERD.png" />
-</p>
-</details>
 
 <!--
 # 📋설계문서
@@ -408,6 +402,16 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 </details>
 
 -->
+
+<br>
+
+# 🐸ERD
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/mojal_wb.png" width="60%" />
+
+---
+
+<br>
+
 
 <br>
 
