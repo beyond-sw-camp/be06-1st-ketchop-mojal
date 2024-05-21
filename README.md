@@ -133,7 +133,7 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 <p>
 [요구사항 정의서](https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.pdf)
 </p>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.png" width="80%" />
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.png" width="100%" />
 
 
 
