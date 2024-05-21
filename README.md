@@ -15,29 +15,37 @@
 	<p>✨ Platforms & Languages ✨</p>
 </div>
 <div align="center">
+	<!--
 	<img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D" />
 	<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
 	<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
 	<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
+	-->
 	<br>
 	<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" />
         <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Conda-Forge&logoColor=white" />
+	<!-- 
 	<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jQuery&logoColor=white" />
 	<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=Bootstrap&logoColor=white" />
+	-->
 	<br>
-	<img src="https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=flat&logo=Thymeleaf&logoColor=white" />
 	<img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" />
+	<!--
+	<img src="https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=flat&logo=Thymeleaf&logoColor=white" />
 	<img src="https://img.shields.io/badge/Mybatis-000000?style=flat&logo=Fluentd&logoColor=white" />
+	-->
 </div>
 <br>
 <div align=center>
 	<h2>🛠 Tools 🛠</h2>
 </div>
 <div align=center>
-	<img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat&logo=EclipseIDE&logoColor=white" />
 	<img src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=flat&logo=intellij-idea&logoColor=white" />
 	<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
+	<!--
+	<img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat&logo=EclipseIDE&logoColor=white" />
 	<img src="https://img.shields.io/badge/apache-%23D42029.svg?style=flat&logo=apache&logoColor=white" />
+	-->
 </div>
 <br>
 <br>
@@ -67,7 +75,7 @@
 
 ## 4. 서비스 배경
 
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/project_background.PNG" />
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/project_background.PNG" width="60%" />
 
 2023년도 기사에 따르면 숨고, 크몽과 같은 재능마켓 앱의 설치 건수가 4년 사이에 약 8배정도 폭증하였다고 한다. 특히 숨고는 2019년 이용자가 5만명이었는데 4년간 연평균 이용자가 5배나 늘어난 25만명을 기록하였다. <br>
 IT 업계에선 재능 마켓 앱을 통해 거래되는 재능 가운데 번역이나 문서 작업 등 사무직 업무 혹은 이미지 생성 등 예술을 비롯한 지적 서비스는 챗GPT를 위시한 생성 AI가 끊임없이 발전하면서 대체될 가능성이 있다는 예측이 나오고 있다. 해당 예측에 따라서 인간이 물리적으로 할 수 있는 활동만 인기를 유지할 수 있을 것이란 분석이다. <br>
@@ -127,12 +135,6 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 </p>
 </details>
 
-<details><summary> <b>3. ERD</b> </summary>
-</br>
-<p>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/ERD.png" />
-</p>
-</details>
 
 <!--
 # 📋설계문서
@@ -400,6 +402,15 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 </details>
 
 -->
+
+<br>
+
+# 🐸ERD
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/mojal_wb.png" width="60%" />
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/mojal_erdclode.png" width="100%" />
+
+<br>
+
 
 <br>
 
