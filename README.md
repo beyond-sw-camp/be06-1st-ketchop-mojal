@@ -130,8 +130,8 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 
 
 <summary> <h3>2. 요구사항 정의서</h3> </summary>
-<a href="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.pdf">요구사항 정의서<a/><br/><br/>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.png" width="100%" />
+<a href="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/요구사항정의서_최종본.pdf">요구사항 정의서<a/><br/><br/>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/요구사항정의서_최종본.png" width="100%" />
 
 
 
@@ -417,9 +417,181 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 # 🐳시스템 아키텍처
 <img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png" width="80%" />
 
----
+<br>
+
+# 💻SQL개발
+
+<details><summary> <b>1. USER회원가입 </b> </summary>
+<p>
+	
+- nickname,email,password,signup_date,user_auth의 값을 입력하고 회원가입을 한다. 
+
+ <br>
+ 
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>2. USER정보조회 </b> </summary>
+<p>
+	
+- USER정보(전체조회)
+  - select all로 USER테이블에서 전체유저정보를 조회한다.
+
+    <br>
+    
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C_%EC%A0%84%EC%B2%B4.png" width="100%" />
+
+- USER정보(특정유저정보조회)
+  - select all로 USER테이블에서 where절에서 해당 조건으로 특정유저정보를 조회한다.
+    <br>
+    
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C_%ED%8A%B9%EC%A0%95%ED%9A%8C%EC%9B%90.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>3. CHAT-ROOM생성 </b> </summary>
+<p>
+	
+- USER1_idx(글작성자), USER2_idx(신청자), POST_idx(해당신청글id)를 입력하고 해당값을 넣어서 CHAT_ROOM을 생성한다.
+
+  <br>
+  
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/CHAT_ROOM%EC%83%9D%EC%84%B1.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>4.CHAT_ROOM리스트 조회 </b> </summary>
+<p>
+	
+- select all로 CHAT_ROOM테이블에서 채팅방목록을 조회한다.
+  
+	<br>
+	
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/CHAT_ROOM%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%A1%B0%ED%9A%8C.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>5. CHAT_MESSAGE생성 </b> </summary>
+<p>
+	
+- chattime, message, send_user_idx, CHAT_ROOM_idx를 insert해서 CHAT_MESSAGE를 생성한다.
+  
+  <br>
+  
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/CHAT_MESSAGE%EC%83%9D%EC%84%B1.PNG?raw=true" width="100%" />
+</p>
+</details>
+<details><summary> <b>6. POST작성 </b> </summary>
+<p>
+	
+- title, c_top_give,c_top_want,c_btm_give,c_bottom_want,contents, post_time, modify_time,status, post_type,USER_idx 를 입력하고 POST작성을 한다.
 
 <br>
+
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/POST%EC%9E%91%EC%84%B1.png" width="100%" />
+</p>
+</details>
+
+<details><summary> <b>7. 글상세조회 </b> </summary>
+<p>
+	
+- title, c_top_give,c_top_want,c_btm_give,c_bottom_want,contents, post_time, modify_time,status, post_type,USER_idx를 POST테이블에서 where절에서 해당조건으로 조회한다.
+<br>
+
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EA%B8%80%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png" width="100%" />
+	
+</p>
+</details>
+<details><summary> <b>8. 전체글목록조회 </b> </summary>
+<p>
+	
+- select all로 POST테이블에서 전체글목록을 조회함.
+
+  <br>
+  
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%A0%84%EC%B2%B4%EA%B8%80%EC%A1%B0%ED%9A%8C.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>9. USER가 작성한 글 조회 </b> </summary>
+<p>
+	
+- title, c_top_give,c_top_want,c_btm_give,c_bottom_want,contents, post_time, modify_time,status, post_type,USER_idx를 POST테이블에서 where절에서 해당조건으로 USER가 작성한 글을 조회한다.
+
+  <br>
+  
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EA%B0%80%EC%9E%91%EC%84%B1%ED%95%9C%EA%B8%80%EC%A1%B0%ED%9A%8C.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>10. USER가 신청한 글 조회 </b> </summary>
+<p>
+	
+- POST_MATCHING_USER 테이블을 참조하여 해당 테이블 안에 있는 해당 USER_IDX를 찾고, 해당 USER의 POST_ID를 찾아 해당 POST의 ID에 맞는 글을 조회한다.
+
+  <br>
+  
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EA%B0%80%EC%8B%A0%EC%B2%AD%ED%95%9C%EA%B8%80%EC%A1%B0%ED%9A%8C.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>11. 검색조회 </b> </summary>
+<p>
+	
+- USER_idx, TOP_CATEGORY_idx, count(신청자가 선택한 상위카테고리 수)를 입력해 검색어를 조회한다.
+
+<br>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EA%B2%80%EC%83%89%EC%A1%B0%ED%9A%8C.png" width="100%" />
+</p>
+</details>
+<details><summary> <b>12. 교환상대확정 </b> </summary>
+<p>
+	
+- POST_MATCHING_USER테이블에 데이터 생성 = 재능교환 상대확정
+
+ <br>
+ 
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EA%B5%90%ED%99%98%EC%83%81%EB%8C%80%ED%99%95%EC%A0%95.png" width="100%" />
+</p>
+</details>
+
+<br>
+<br>
+
+# 💻SQL 성능개선
+
+<details><summary> <b> 전체POST에서 교환글(OR 나눔글)조회 성능개선 </b> </summary>
+<p>
+	
+1.일반쿼리문 실행시 5227행 , 0.015sec 
+
+ <br>
+ 
+ <div>Before</div>
+ 
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A01_before.png" width="100%" />
+
+<br>
+<br>
+
+<div>After</div>
+
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A01_after.png" width="100%" />
+
+<br>
+<br>
+
+2. 인덱스쿼리 실행시 2336행 , 0.000 sec
+
+ 
+<div>Before</div>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A02_before.png" width="100%" />
+
+<br>
+<br>
+
+	 
+<div>After</div>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A02_after.png" width="100%" />
+</p>
+</details>
+
+
+
 <!--
 # 📎전제 조건 및 설치 환경
 이 프로젝트를 시작하기 전에 다음 소프트웨어와 도구가 설치되어 있어야 합니다.
