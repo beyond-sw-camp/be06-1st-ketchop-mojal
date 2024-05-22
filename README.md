@@ -549,7 +549,33 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 </p>
 </details>
 
+# 💻SQL 성능개선
 
+<details><summary> <b> 전체POST에서 교환글(OR 나눔글)조회 성능개선 </b> </summary>
+<p>
+	
+1.일반쿼리문 실행시 5227행 , 0.015sec 
+
+ <br>
+ 
+ <div>**<before>**</div>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A01_before.png" width="100%" />
+
+	 
+  <div>**<after>**</div>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A01_after.png" width="100%" />
+
+2. 인덱스쿼리 실행시 2336행 , 0.000 sec
+
+ 
+ <div>**<before>**</div>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A02_before.png" width="100%" />
+
+	 
+  <div>**<after>**</div>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A02_after.png" width="100%" />
+</p>
+</details>
 
 
 
