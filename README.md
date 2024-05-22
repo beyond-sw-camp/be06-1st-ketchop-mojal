@@ -405,7 +405,9 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 <br>
 
 # 🐸ERD
+
 <img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/ERD_최최종.png" width="100%" />
+
 
 <br>
 
