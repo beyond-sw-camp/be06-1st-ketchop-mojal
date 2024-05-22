@@ -121,19 +121,18 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 
 # 📚기능/요구사항/테스트 명세서
 
-<details><summary> <b>1. 기능 명세서</b> </summary>
+
+<summary> <h3>1. 기능 명세서</h3> </summary>
 <p>
 
 </p>
-</details>
 
 
-<details><summary> <b>2. 요구사항 정의서</b> </summary>
-</br>
-<p>
-[요구사항 정의서](https://docs.google.com/spreadsheets/d/1nINUfPMGdKhAfh8h0LfVK5Xj63Ye9ZGvm82bMhQ6BDA/edit#gid=1744923628)
-</p>
-</details>
+
+<summary> <h3>2. 요구사항 정의서</h3> </summary>
+<a href="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.pdf">요구사항 정의서<a/><br/><br/>
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%EC%A0%95%EC%9D%98%EC%84%9C.png" width="100%" />
+
 
 
 <!--
@@ -406,8 +405,7 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 <br>
 
 # 🐸ERD
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/mojal_wb.png" width="60%" />
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/mojal_erdclode.png" width="100%" />
+<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/mojal_erd_수정본.png" width="100%" />
 
 <br>
 
