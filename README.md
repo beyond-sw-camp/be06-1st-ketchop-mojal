@@ -451,7 +451,12 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 <details><summary> <b>3. CHAT-ROOM생성 </b> </summary>
 <p>
 	
-- USER1_idx(글작성자), USER2_idx(신청자), POST_idx(해당신청글id)를 입력하고 해당값을 넣어서 CHAT_ROOM을 생성한다.
+- idx=5인 post에서 idx=1인 user가 채팅하기를 클릭했을 때
+<ol>
+	<li>생성 조건 확인
+	
+	</li>
+</ol>
 
   <br>
   
