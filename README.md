@@ -454,7 +454,7 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 - idx=5인 post에서 idx=1인 user가 채팅하기를 클릭했을 때
 <ol>
 	<li>생성 조건 확인
-	
+	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chatroom%EC%83%9D%EC%84%B1_%EC%A1%B0%EA%B1%B4%20%ED%99%95%EC%9D%B8.png" width="100%" />
 	</li>
 </ol>
 
