@@ -429,6 +429,7 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_chat_room.png" width="50%" /><br>
 	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_chat_message.png" width="60%" /><br>
 	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_user_has_category.png" width="50%" /><br>
+	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ssl_user_has_post.png" width="50%" /><br>
 </p>
 </details>
 
@@ -556,6 +557,7 @@ ketchop팀에서는 서비스의 연속성이 있고 데이터 유실이 거의 
 		- 카테고리 검색(idx=1 인 카테고리 선택)<br>
 		<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EA%B2%80%EC%83%89.png" width="100%" /><br><br>
 		- 키워드 검색(키워드 : "software")<br>
+		<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%ED%82%A4%EC%9B%8C%EB%93%9C%EA%B2%80%EC%83%892.png" width="100%" /><br><br>
 		<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%ED%82%A4%EC%9B%8C%EB%93%9C%20%EA%B2%80%EC%83%89.png" width="100%" /><br><br>
 	</p>
 </details>
